@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <title>Desafio 2</title>
 </head>
-<body>
+<body class="body">
+    <div class="container">
+        
     <h1>Lista de pedidos</h1>
+
     <h2>Ingrese los datos del cliente</h2>
+
     <div class="formBox">
         <form action="">
             <input id="nombre" type="text" placeholder="Nombre">
@@ -27,26 +37,18 @@
     </button>
     </div>
 
-    <table id="tabla">
-        <tr>
-            <th>Nombre</th>
-            <th>Numero de pedido</th>
-            <th>Estado</th>
-        </tr>
+    <table class="table" id="tabla">
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Pedido</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+      </table>
+</div>
 
-        <tr>
-            <td>Ariel</td>
-            <td>001</td>
-            <td>Listo</td>
-        </tr>
-
-        <tr>
-            <td>Sofia</td>
-            <td>002</td>
-            <td>En preparacion</td>
-        </tr>
-    </table>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 </html>
