@@ -36,7 +36,7 @@ botonLog.onclick= () => {
         })
 
         // --------TIEMPO PARA REDIRECCIONAR AL SISTEMA--------
-        setInterval(function(){window.location.href = `app.html`}, 2600);
+        setInterval(function(){window.location.href = `pages/menu.html`}, 2600);
 
         // -------- ALERT!!! SI NO SE CUMPLE LA CONDICION--------
         } else {

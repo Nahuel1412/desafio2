@@ -20,6 +20,15 @@ boton.onclick= () => {
     console.log(nuevoSujeto);
 
     agregar();
+
+    Toastify({
+
+        text: "Se agrego el cliente a la fila!",
+        
+        duration: 3000
+        
+        
+    }).showToast();
 };
 
 // -------AQUI SE GUARDAN LOS DATOS DE LOS CLIENTES-------

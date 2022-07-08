@@ -7,13 +7,13 @@
     background:#52545e;
 }
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     min-height: 100vh;
     border: 8px solid #30323D;
     border-top: hidden;
     border-bottom: hidden;
     margin: auto;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     background-color: #E8C547;
     color: #30323D;
 }
@@ -25,7 +25,14 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+    font-family:'Staatliches';
+}
+
+h3{
+    font-size: 25px;
     text-align: center;
     margin: 15px;
     font-family:'Staatliches';
@@ -87,4 +94,74 @@ tr{
 td{
     font-weight: bold;
     font-family:'rubik';
+}
+
+/* --------------MENU PAGE--------------- */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+
+.logo{
+    display: flex;
+    gap: 30px;
+}
+
+.logo img{
+    width: 75px;
+    height: 75px;
+}
+.navlinks{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-family: 'rubik';
+    padding: 10px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #c72626;
+}
+
+.buscador{
+    text-align: center;
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.card img {
+    width: 300px;
+    height: 230px;
+}
+
+.card figcaption{
+    font-family: 'staatliches';
+    font-size: 30px;
+}
+
+.card figcaption p{
+    font-family: 'rubik';
+    font-size: 15px;
+}
+
+.carne{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.filtro{
+    display: none;
 }
