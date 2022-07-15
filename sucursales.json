@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nombre": "Hamburguesas King San Justo",
+    "calle": "Arieta",
+    "altura":"3545",
+    "localidad":"La Matanza"
+  },
+  {
+    "id": 2,
+    "nombre": "Hamburguesas King Ramos Mejía",
+    "calle": "Av. Rivadavia",
+    "altura":"14540",
+    "localidad":"Ramos Mejía"
+  },
+  {
+    "id": 3,
+    "nombre": "Hamburguesas King Liniers",
+    "calle": "Ramon Falcon",
+    "altura":"7145",
+    "localidad":"CABA"
+  },
+  {
+    "id": 4,
+    "nombre": "Hamburguesas King Morón",
+    "calle": "Belgrano",
+    "altura":"119",
+    "localidad":"Morón"
+    
+  },
+  {
+    "id": 5,
+    "nombre": "Hamburguesas King Nazca",
+    "calle": "Av. Rivadavia",
+    "altura":"7408",
+    "localidad":"CABA"
+  },
+  {
+    "id": 6,
+    "nombre": "Hamburguesas King Castelar",
+    "calle": "Santa Rosa",
+    "altura":"1714",
+    "localidad":"Ituzaingo"
+  }
+
+]
