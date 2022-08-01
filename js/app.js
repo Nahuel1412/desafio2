@@ -15,20 +15,31 @@ boton.onclick= () => {
     // console.log(pedidoCapturar);
     let estadoCapturar=document.getElementById('estado').value;
     // console.log(estadoCapturar);
-    
-    nuevoSujeto=new persona(nombreCapturar,pedidoCapturar,estadoCapturar);
-    console.log(nuevoSujeto);
 
-    agregar();
+    if (nombreCapturar != "" && pedidoCapturar != "" && estadoCapturar!= "") {
+        
+        nuevoSujeto=new persona(nombreCapturar,pedidoCapturar,estadoCapturar);
+        console.log(nuevoSujeto);
 
-    Toastify({
+        agregar();
 
-        text: "Se agrego el cliente a la fila!",
-        
-        duration: 3000
-        
-        
-    }).showToast();
+        Toastify({
+
+            text: "Se agrego el cliente a la fila!",
+            
+            duration: 3000
+            
+            
+        }).showToast();
+
+    // -------- ALERT!!! SI NO SE CUMPLE LA CONDICION--------
+    } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Debes completar todos los campos',
+        })
+    }
 };
 
 // -------AQUI SE GUARDAN LOS DATOS DE LOS CLIENTES-------

@@ -1,3 +1,4 @@
+// -------Buscador que borra lo que escribes con la tecla ESC-------
 
 document.addEventListener("keyup", e=>{
 
